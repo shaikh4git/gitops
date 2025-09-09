@@ -3,9 +3,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tetris-deployment
+  name: nginx-deployment
 spec:
-  replicas: 2 # You can adjust the number of replicas as needed
+  replicas: 3 # You can adjust the number of replicas as needed
   selector:
     matchLabels:
       app: tetris
